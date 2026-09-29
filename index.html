@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Your Discipline</title>
+<meta name="description" content="《Your Discipline》パノプティコンの構造にトイレを持ち込み、SNSやAIを介して形成される現代の規律を問うインタラクティブ・インスタレーション。">
+<meta property="og:title" content="Your Discipline">
+<meta property="og:description" content="パノプティコンの構造にトイレを持ち込み、SNSやAIを介して形成される現代の規律を問うインタラクティブ・インスタレーション。">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/overview.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0c0b0b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Noto+Sans+JP:wght@400&family=Shippori+Mincho:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header" id="header">
+  <span>Your Discipline</span>
+  <span id="counter">KUMO　2025</span>
+</header>
+
+<!-- 00 導入：全景 → スマホへ縮む -->
+<section class="intro" id="s00" data-index="00">
+  <div class="intro-stage">
+    <div class="intro-media" id="introMedia">
+      <img src="assets/img/overview.jpg" alt="《Your Discipline》展示全景。三つの独房と中央の便座" fetchpriority="high">
+      <div class="intro-dim" id="introDim"></div>
+    </div>
+    <div class="intro-title" id="introTitle">
+      <h1>Your Discipline</h1>
+      <p>2025　インタラクティブ・インスタレーション　5000 × 5000 × 2300 mm</p>
+    </div>
+    <div class="scroll-cue" id="scrollCue" aria-hidden="true">
+      <span>SCROLL</span>
+      <i></i>
+    </div>
+  </div>
+</section>
+
+<!-- スマホ（PC表示で右側に固定） -->
+<div class="phone" id="phone">
+  <div class="phone-screen" id="phoneScreen">
+    <div class="layer" data-for="s01"><img src="assets/img/overview.jpg" alt="" style="object-position: 52% 50%"></div>
+    <div class="layer" data-for="s02"><img src="assets/img/concept.jpg" alt="" loading="lazy"></div>
+    <div class="layer layer-plans" data-for="s03">
+      <figure><img src="assets/img/plan-exhibition.png" alt="" loading="lazy"><figcaption>展示構成</figcaption></figure>
+    </div>
+    <div class="layer layer-plans" data-for="s03">
+      <figure><img src="assets/img/plan-circulation.png" alt="" loading="lazy"><figcaption>動線構成</figcaption></figure>
+    </div>
+    <div class="layer layer-sound" data-for="s04">
+      <button type="button" class="play-btn" data-audio-toggle aria-label="音源を再生">
+        <svg class="i-play" width="28" height="32" viewBox="0 0 28 32" fill="none" aria-hidden="true"><path d="M2 2 L26 16 L2 30 Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        <svg class="i-pause" width="24" height="28" viewBox="0 0 24 28" fill="none" aria-hidden="true"><path d="M4 2 V26 M20 2 V26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="layer" data-for="s05"><img src="assets/img/pov1.jpg" alt="" loading="lazy"></div>
+    <div class="layer" data-for="s05"><img src="assets/img/pov2.jpg" alt="" loading="lazy"></div>
+    <div class="layer" data-for="s06"><video src="assets/media/reel.mp4" poster="assets/img/reel-poster.jpg" muted loop playsinline preload="metadata"></video></div>
+    <div class="layer" data-for="s07"><video src="assets/media/mannequin.mp4" poster="assets/img/mannequin-poster.jpg" muted loop playsinline preload="metadata"></video></div>
+    <div class="layer layer-binocular" data-for="s08"><div class="circle"><img src="assets/img/binocular.jpg" alt="" loading="lazy"></div></div>
+    <div class="layer" data-for="s09"><img src="assets/img/reelpaper.jpg" alt="" loading="lazy" style="object-position: 50% 50%"></div>
+    <div class="layer layer-dim" data-for="s10"><video src="assets/media/reel.mp4" poster="assets/img/reel-poster.jpg" muted loop playsinline preload="none"></video></div>
+  </div>
+</div>
+
+<audio id="sound" src="assets/media/sound.mp3" preload="none" loop></audio>
+
+<main class="story">
+
+  <!-- 01 -->
+  <section class="sec" id="s01" data-index="01">
+    <div class="m-media"><img src="assets/img/overview.jpg" alt="展示全景" loading="lazy"></div>
+    <div class="text">
+      <div class="label"><span class="num">01</span><span class="cat">コンセプト</span></div>
+      <div class="body">
+        <p>「Your Discipline」は、ミシェル・フーコーが論じた、パノプティコンの構造に「便所（トイレ）」を持ち込んだインタラクティブ・インスタレーションである。</p>
+        <p>本作で私たちが焦点を当てたのは、よく論じられる監視社会そのものではなく、「個室の中に自らポケットサイズの監獄を持ち込み、そこで欲を処理する身体」としての私たちの姿である。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 -->
+  <section class="sec" id="s02" data-index="02">
+    <div class="m-media"><img src="assets/img/concept.jpg" alt="赤い光の中の鏡張りマネキン" loading="lazy"></div>
+    <div class="text">
+      <div class="label"><span class="num">02</span><span class="cat">コンセプト</span></div>
+      <div class="body">
+        <p>2026年現在、社会は複雑さを増し、AIや最適化が叫ばれる大きな時代の過渡期である。</p>
+        <p>私たちは、SNSやAIを通じて、最適化されたプラットフォーマーからの、安直な情報を取り込み、排泄するサイクルに身を投じている。</p>
+        <p>そこで「Your Discipline」では、パノプティコンを構成する中央監視塔と独房の構造を用い、現代の監獄であるSNSを題材にした。</p>
+        <p>鑑賞者は、三つの独房を中央監視塔の双眼鏡から垣間見ることができ、さらに中央の独房のトイレに自ら腰を下ろし、羞恥的・身体的な場で延々と流れるリール動画を視聴することができる。</p>
+        <p>ミシェル・フーコーが論じた、パノプティコンの構造の本質である監獄の中に、人間の身体を入れることにより生まれる規律を「Your Discipline」で再考する。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 -->
+  <section class="sec" id="s03" data-index="03">
+    <div class="m-media m-plans m-pair">
+      <figure><img src="assets/img/plan-exhibition.png" alt="展示構成図。三つの独房、便座、鏡張りのマネキン、watch tower、リール紙" loading="lazy"><figcaption>展示構成</figcaption></figure>
+      <figure><img src="assets/img/plan-circulation.png" alt="動線構成図。展示室の平面と鑑賞者の動線" loading="lazy"><figcaption>動線構成</figcaption></figure>
+    </div>
+    <div class="text">
+      <div class="label"><span class="num">03</span><span class="cat">空間設計</span></div>
+      <h2>展示構成と動線</h2>
+      <div class="body">
+        <p>体験者は、プラットフォームのユーザーの立場で、作品の一部となる体験と、それを鑑賞する鑑賞者という、二つの立場を行き来できるように設計されている。ここでは、「見られる」側とそれを「見る」側の二つの体験を軸に、本作の構造と体験を説明する。</p>
+      </div>
+      <dl class="data">
+        <dt>寸法</dt><dd>5000 × 5000 × 2300 mm</dd>
+        <dt>構成</dt><dd>独房 ×3、watch tower、リール紙</dd>
+      </dl>
+    </div>
+  </section>
+
+  <!-- 04 -->
+  <section class="sec" id="s04" data-index="04">
+    <div class="m-media m-sound">
+      <button type="button" class="play-btn" data-audio-toggle aria-label="音源を再生">
+        <svg class="i-play" width="28" height="32" viewBox="0 0 28 32" fill="none" aria-hidden="true"><path d="M2 2 L26 16 L2 30 Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        <svg class="i-pause" width="24" height="28" viewBox="0 0 24 28" fill="none" aria-hidden="true"><path d="M4 2 V26 M20 2 V26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="text">
+      <div class="label"><span class="num">04</span><span class="cat">サウンド</span></div>
+      <h2>環境音とリール</h2>
+      <div class="body">
+        <p>展示室には、環境音が絶えず流れている。その音の中に、ときおりリール動画の音声が混ざり込む。</p>
+        <p>展示室の両端にはステレオのスピーカーが置かれ、Raspberry Pi 5とオーディオインターフェースによって、音源がスタンドアロンでループ再生される。</p>
+      </div>
+      <dl class="data">
+        <dt>聞こえる範囲</dt><dd>展示室全体</dd>
+        <dt>構成</dt><dd>環境音、リールの音源</dd>
+        <dt>再生</dt><dd>イヤホン推奨</dd>
+      </dl>
+    </div>
+  </section>
+
+  <!-- 05 -->
+  <section class="sec" id="s05" data-index="05">
+    <div class="m-media m-pair">
+      <img src="assets/img/pov1.jpg" alt="便座に座った時の視点。正面にwatch towerが見える" loading="lazy">
+      <img src="assets/img/pov2.jpg" alt="牢屋に座った時の視点。鏡にパノプティコンが広がる" loading="lazy">
+    </div>
+    <div class="text">
+      <div class="label"><span class="num">05</span><span class="cat">体験プロセス①（見られる）</span></div>
+      <h2>牢屋に入り、便座に座る</h2>
+      <div class="body">
+        <p>中央の牢屋の格子は空いており、中央の便座に腰を下ろすことができる。中央の部屋の両方の壁には鏡が張られており、座ることで反射し、パノプティコンが現れる。</p>
+      </div>
+      <figure class="inline-fig">
+        <img src="assets/img/seated.jpg" alt="人が便座に座った様子" loading="lazy">
+        <figcaption>人が座った時の図</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 06 -->
+  <section class="sec" id="s06" data-index="06">
+    <div class="m-media"><video src="assets/media/reel.mp4" poster="assets/img/reel-poster.jpg" muted loop playsinline preload="none"></video></div>
+    <div class="text">
+      <div class="label"><span class="num">06</span><span class="cat">体験プロセス②（見られる）</span></div>
+      <h2>リールを視聴する</h2>
+      <div class="body">
+        <p>便座に座ると、正面にロール紙と接続された小型のディスプレイがあり、そこでは延々と投稿やリールが流れ続け、プラットフォーマーの「ユーザー」となる。後述するが、この光景を「見る」側の体験者から監視されることになる。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 07 -->
+  <section class="sec" id="s07" data-index="07">
+    <div class="m-media"><video src="assets/media/mannequin.mp4" poster="assets/img/mannequin-poster.jpg" muted loop playsinline preload="none"></video></div>
+    <div class="text">
+      <div class="label"><span class="num">07</span><span class="cat">体験プロセス③（見る）</span></div>
+      <h2>マネキンの監視</h2>
+      <div class="body">
+        <p>次に、体験者はユーザーを監視する立場となる。watch towerにのぼると、隣の独房には、マネキンが独房の中で延々とリールを見ているのを目撃する。マネキンは全身鏡張りで、リールの光をreflectする。</p>
+        <p>このリールの光は、ArduinoとLEDユニットの制御によって、スマートフォンの画面の明滅を模したフラッシュとして再現している。</p>
+        <p>SNSという空間に存在する人間は、他者の視線に合わせて変化する「分人」にすぎない。知らずのうちに規律を内面化、自己言及＝reflectするのである。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 08 -->
+  <section class="sec" id="s08" data-index="08">
+    <div class="m-media m-binocular"><div class="circle"><img src="assets/img/binocular.jpg" alt="watch towerの双眼鏡から見た独房" loading="lazy"></div></div>
+    <div class="text">
+      <div class="label"><span class="num">08</span><span class="cat">体験プロセス④（見る）</span></div>
+      <h2>双眼鏡を覗く</h2>
+      <div class="body">
+        <p>双眼鏡を覗いてマネキンとユーザーを監視することができる。双眼鏡が向いている場所をサーチライトが照らすため、ユーザーは監視者の視点を常に感じることになる。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 09 -->
+  <section class="sec" id="s09" data-index="09">
+    <div class="m-media"><img src="assets/img/reelpaper.jpg" alt="床を這うリール紙" loading="lazy"></div>
+    <div class="text">
+      <div class="label"><span class="num">09</span><span class="cat">About reels</span></div>
+      <h2>リール紙について</h2>
+      <div class="body">
+        <p>足元をみると、watch towerと牢屋のディスプレイを繋げる、リールの画面が印刷された紙がある。</p>
+        <p>パノプティコンにおける中央監視塔の役割は規律の矯正だが、現代ではプラットフォーマーが中央監視塔となり、意識の外で「ユーザー」の規律を、さらには社会の規律を矯正し、形作っている。</p>
+      </div>
+      <div class="thumbs">
+        <img src="assets/img/reel-1.jpg" alt="リール紙に印刷された画面 1" loading="lazy">
+        <img src="assets/img/reel-2.jpg" alt="リール紙に印刷された画面 2" loading="lazy">
+        <img src="assets/img/reel-3.jpg" alt="リール紙に印刷された画面 3" loading="lazy">
+        <img src="assets/img/reel-4.jpg" alt="リール紙に印刷された画面 4" loading="lazy">
+        <img src="assets/img/reel-5.jpg" alt="リール紙に印刷された画面 5" loading="lazy">
+        <img src="assets/img/reel-6.jpg" alt="リール紙に印刷された画面 6" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- 10 -->
+  <section class="sec" id="s10" data-index="10">
+    <div class="m-media m-dim"><video src="assets/media/reel.mp4" poster="assets/img/reel-poster.jpg" muted loop playsinline preload="none"></video></div>
+    <div class="text">
+      <div class="label"><span class="num">10</span><span class="cat">結び</span></div>
+      <div class="body body-lg">
+        <p>しかし、この作品を鑑賞してもなお、あなたは、SNSやAIなどのプラットフォーマーからの情報を取り込み、排泄するサイクルに呑まれ、衝動的にスクロールし続ける。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11 -->
+  <section class="sec sec-end" id="s11" data-index="11">
+    <div class="end-text">
+      <p>これからあなたは、自分自身をどこに投じ、何を見るのか。</p>
+      <p>「見られて初めて存在するあなた」は、どこまで自ら進んで従属するのだろうか。</p>
+    </div>
+  </section>
+
+  <!-- 12 -->
+  <section class="sec sec-data" id="s12" data-index="12">
+    <div class="data-wrap">
+      <h2 class="data-title">Your Discipline</h2>
+      <div class="data-grid">
+        <div>
+          <h3>作品データ</h3>
+          <p>2025</p>
+          <p>インタラクティブ・インスタレーション</p>
+          <p>牢屋、便所、マネキン、Arduino Uno、Raspberry Pi 5、LEDユニット、双眼鏡、ライト、スピーカー、リール</p>
+          <p>5000 × 5000 × 2300 mm</p>
+        </div>
+        <div>
+          <h3>受賞</h3>
+          <p>2026　第29回 岡本太郎現代芸術賞 入賞</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
